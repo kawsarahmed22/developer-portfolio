@@ -53,7 +53,8 @@ h1 { font-size: 50px;}
 .experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position-x: left;
+    background-position-y: center;
 }
 
 #web-dev-exp {
