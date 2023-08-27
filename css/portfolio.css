@@ -4,46 +4,58 @@ body {
     margin: 0;
 }
 
-ul, ol{
+ul,
+ol {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
+
 .primary-color {
     color: #FD6E0A;
 }
+
 .flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
+
 .half-width {
     width: 50%;
     padding-left: 5%;
 }
+
 .half-width img {
     width: 80%;
 }
 
+.btn-primary {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 35px;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+}
 
 /* header css */
-.banner {
-    background-color: #FFF8F3;;
-    display: flex;
-    padding: 0 20px;
-    align-items: center;
-    
-}
-.banner .profile-picture {
-    width: 500px;
 
-}
+
 /* nav css */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,34 +66,55 @@ nav ul {
     display: flex;
     align-items: center;
 }
+
 nav ul li {
     margin-right: 50px;
 }
+
 nav ul li a {
     color: #474747;
 }
-.btn-primary {
-    text-decoration: none;
-    background-image: linear-gradient(orange , tomato);
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px 35px;
-    color: #fff;
-    font-weight: 700;
-    border: 0;
 
-
-}
-
-.nav-title { 
+.nav-title {
     font-size: 45px;
 }
 
-.header-top {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    margin-bottom: 100px;
+/* banner css */
+.banner {
+    background-color: #FFF8F3;
+    ;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+
 }
+
+.banner .profile-picture {
+    width: 500px;
+
+}
+
+/* about css */
+
+.about {
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+
+.about-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.about-description {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 
 .dream-big {
     background-image: url(images/dream-bg.png);
@@ -107,13 +140,14 @@ nav ul li a {
 
 #web-dev-exp {
     border-left: 7px solid;
-    border-image: linear-gradient(blue , cyan);
+    border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 
 }
+
 #baby-dev-exp {
     border-left: 7px solid;
-    border-image: linear-gradient(orange , tomato);
+    border-image: linear-gradient(orange, tomato);
     border-image-slice: 1;
 
 }
