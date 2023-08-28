@@ -108,7 +108,7 @@ nav ul li a {
     padding: 130px;
 }
 
-.about-title {
+.section-title {
     font-size: 35px;
     font-weight: 700;
     text-align: center;
@@ -124,7 +124,7 @@ nav ul li a {
 
 .about-info-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .info-title {
@@ -141,50 +141,30 @@ nav ul li a {
     font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
-
-
-.dream-big {
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+#what-i-do-description {
+    padding: 30px 150px;
+    text-align: center;
 }
 
-.experience-item {
-    box-shadow: 10px 10px 40px gray;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-
+.skill-title {
+color:  #181818;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 0;
 }
 
-.experience-area {
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: center;
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.skills-container {
+    display: flex;
 }
 
-#web-dev-exp {
-    border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
 
-}
-
-#baby-dev-exp {
-    border-left: 7px solid;
-    border-image: linear-gradient(orange, tomato);
-    border-image-slice: 1;
-
+footer {
+    margin-top: 10px;
 }
 
 footer p {
