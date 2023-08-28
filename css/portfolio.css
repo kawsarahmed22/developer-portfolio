@@ -100,7 +100,9 @@ nav ul li a {
     width: 500px;
 
 }
-
+.banner-description {
+    margin: 20px 0;
+}
 /* about css */
 
 .about {
@@ -174,12 +176,16 @@ nav ul li a {
 
 
 /* Resume section styles */
+
+
 .resume-container {
     display: flex;
     gap: 30px;
 
 }
-
+#resume-section-title{
+    margin: 50px 0;
+}
 .resume-column-title {
     color: #474747;
     font-size: 30px;
